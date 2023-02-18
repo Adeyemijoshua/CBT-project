@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { courses } from '../constants/data'
 import { useParams, Link } from 'react-router-dom'
-import cam from "../assets/cam.png"
 import Webcam from 'react-webcam'
 
 const Questions = () => {

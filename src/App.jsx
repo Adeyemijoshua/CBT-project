@@ -21,8 +21,7 @@ import AdminDashboard from "./pages/AdminDashboard";
 const App = () => {
   const [currentUser, setCurrentUser] = useState(null)
   const [timeActive, setTimeActive] = useState(true)
-
-
+  
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
       setCurrentUser(user)
